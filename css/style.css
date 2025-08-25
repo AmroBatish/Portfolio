@@ -943,7 +943,6 @@ html {
   .footer_links { justify-content: center; flex-wrap: wrap; }
 }
 
-/* شاشات أصغر جدًا */
 @media screen and (max-width: 568px) {
   .home-title { font-size: 24px; }
   .home-blob { width: 200px; }
@@ -953,7 +952,6 @@ html {
   .button { padding: 12px; }
 }
 
-/* تصغير شديد (≤350px) */
 @media screen and (max-width: 350px) {
   .container { max-width: 95%; }
   .nav-menu { padding: 12px; }
