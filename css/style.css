@@ -837,7 +837,7 @@ html {
 }
 
 
-/* ==========================          responsive css    ============ *//* ================== RESPONSIVE (apply on your first code) ================== */
+/* ==========================          responsive css    ==========*/
 @media screen and (max-width: 992px) {
   :root {
     --big-font-size: 28px;
@@ -887,10 +887,12 @@ html {
   }
   .home-social { transform: none; order: 2; }
   .home-blob { width: 220px; }
+  .home-img { display: none; }
   .home-blob-img, .home-img img, .home-img { width: 260px; max-width: 85%; }
   .home-data { text-align: center; }
   .home-title { font-size: 28px; }
   .home-subtitle { font-size: var(--h3-font-size); }
+  .home-social {flex-direction: row;}
 
   /* About */
   .about-container { flex-direction: column; gap: 24px; }
